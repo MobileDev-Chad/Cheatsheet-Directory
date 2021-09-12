@@ -6,73 +6,79 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <!-- Fonts : Poppins -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 
-  <title>Frontend Mentor | Four card feature section</title>
+  <title>Frontend | Cheatsheets</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution {
-      font-size: 11px;
-      text-align: center;
-    }
-
-    .attribution a {
-      color: hsl(228, 45%, 44%);
-    }
-  </style>
 </head>
 
 <body>
   <header>
 
-    <h2>Reliable, efficient delivery<br></h2>
-    <h1>Powered by Technology</h1>
+    <h2>Front-End Development<br></h2>
+    <h1>Cheatsheets</h1>
     <p>
-      Our Artificial Intelligence powered tools use millions of project data<br> points
-      to ensure that your project is successful
+      A simple link directory to cheatsheets<br> 
+      provided by Codeacademy
     </p>
 
   </header>
 
-  <div class="container">
+  <main>
 
     <div class="card">
-      <h3>Supervisor<br></h3>
-      <p>Monitors activity to identify project<br>roadblocks</p>
-      <img src="./images/icon-supervisor.svg" alt="">
+      <a href="https://www.codecademy.com/learn/react-101/modules/react-101-jsx-u/cheatsheet" class="react-anchor">
+        <h3>React</h3>
+        <p>React
+          is a free and open-source front-end<br>
+          JavaScript library for building user interfaces<br>
+          or UI components.</p>
+        <img src="./images/icon-react.png" alt="React-image">
+      </a>
     </div>
 
     <div class="card">
-      <h3>Team Builder<br></h3>
-      <p>Scans our talent network to create<br>the optimal team for your project</p>
-      <img src="./images/icon-team-builder.svg" alt="">
+      <a href="https://www.codecademy.com/learn/learn-html/modules/learn-html-elements/cheatsheet" class="html-anchor">
+        <h3>HTML</h3>
+        <p>HyperText Markup Language, or HTML<br>
+          is the standard markup language for documents<br>
+          designed to be displayed in a web browser.</p>
+        <img src="./images/icon-HTML.png" alt="HTML-image">
+      </a>
+    </div>
+
+
+    <div class="card">
+      <a href="https://www.codecademy.com/learn/introduction-to-javascript/modules/learn-javascript-introduction/cheatsheet" class="javascript-anchor">
+        <h3>Javascript</h3>
+        <p>JavaScript is a scripting or programming<br>
+          language that allows you to implement<br>
+          complex features on web pages</p>
+        <img src="./images/icon-javascript.png" alt="Javascript-image">
+      </a>
     </div>
 
     <div class="card">
-      <h3>Karma<br></h3>
-      <p>Regularly evaluates our talent to <br>quality</p>
-      <img src="./images/icon-karma.svg" alt="">
+      <a href="https://www.codecademy.com/learn/learn-css/modules/syntax-and-selectors/cheatsheet" class="css-anchor">
+      <h3>CSS</h3>
+      <p>Cascading Style Sheets (CSS)<br>
+        is a style sheet language used for<br>
+        describing the presentation of HTML markup</p>
+      <img src="./images/icon-css.png" alt="CSS-image">
+      </a>
     </div>
 
-    <div class="card">
-      <h3>Calculator<br></h3>
-      <p>Uses data from past projects to provide<br> better delivery estimates</p>
-      <img src="./images/icon-calculator.svg" alt="">
-    </div>
-
-  </div>
+  </main>
   <footer>
     <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       Coded by <a href="#">Chadwin Allotey</a>.
     </p>
   </footer>
+
 </body>
 
 </html>
